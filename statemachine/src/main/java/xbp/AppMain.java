@@ -33,9 +33,6 @@ public class AppMain {
                     if ("yes".equalsIgnoreCase(text)) {
                         stateMachine.fireEvent(launchContext.getStatus(), LaunchEvent.SUBMIT, launchContext);
                     }
-                    if ("quit".equalsIgnoreCase(text)) {
-                        return;
-                    }
                     break;
                 }
                 case NOT_APPROVED: {
@@ -58,9 +55,6 @@ public class AppMain {
                     } else if ("no".equalsIgnoreCase(text)){
                         stateMachine.fireEvent(launchContext.getStatus(), LaunchEvent.REJECT_APPROVED, launchContext);
                     }
-                    if ("quit".equalsIgnoreCase(text)) {
-                        return;
-                    }
                     break;
                 }
                 case REJECT_APPROVED: {
@@ -72,9 +66,6 @@ public class AppMain {
                     String text = scanner.nextLine().trim();
                     if ("yes".equalsIgnoreCase(text)) {
                         stateMachine.fireEvent(launchContext.getStatus(), LaunchEvent.APPROVED, launchContext);
-                    }
-                    if ("quit".equalsIgnoreCase(text)) {
-                        return;
                     }
                     break;
                 }
@@ -111,13 +102,7 @@ public class AppMain {
                     return;
                 }
             }
-            /*System.out.println("是否退出(yes/no)：");
-            String text = scanner.nextLine().trim();
-            if ("yes".equalsIgnoreCase(text)) {
-                break;
-            }*/
         }
-//        System.out.println("流程已经走完了....");
     }
 
     private static void buildStateMachine() {
@@ -201,20 +186,6 @@ public class AppMain {
         return context -> {
             System.out.println("condition1...");
             return context.getFlowPercent() == 100;
-        };
-    }
-
-    private static Condition<LaunchContext> checkCondition2() {
-        return context -> {
-            System.out.println("condition2...");
-            return true;
-        };
-    }
-
-    private static Condition<LaunchContext> checkCondition3() {
-        return context -> {
-            System.out.println("condition3...");
-            return true;
         };
     }
 
