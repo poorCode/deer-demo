@@ -2,3 +2,6 @@
 /collection/target/
 /flow/target/
 /proxy/target/
+.idea/
+/stream/target/
+/statemachine/target/
