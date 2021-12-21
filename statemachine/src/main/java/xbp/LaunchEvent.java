@@ -4,39 +4,43 @@ package xbp;
  * @author deer
  * @date 2021-12-16
  */
-public enum LaunchStatus {
+public enum LaunchEvent {
     /**
-     * 待提交
+     * 提交
      */
-    NOT_SUBMITTED(0),
+    SUBMIT(0),
     /**
-     * 待审核
+     * 审核通过
      */
-    NOT_APPROVED(1),
+    APPROVED(1),
     /**
      * 审核驳回
      */
     REJECT_APPROVED(2),
     /**
-     * 待开始
+     * 投放未开始
      */
     NOT_STARTED(3),
     /**
-     * 灰度中
+     * 开启试验
      */
-    GRAYSCALE(4),
+    OPEN_TEST(4),
     /**
-     * 已全量
+     * 未开启试验
      */
-    ALL_FLOW(5),
+    NOT_OPEN_TEST(5),
     /**
-     * 已下线
+     * 调整流量
      */
-    OFFLINE(6);
+    ADJUST_FLOW(7),
+    /**
+     * 触发下线
+     */
+    OFFLINE(8);
 
     private final int value;
 
-    LaunchStatus(int value) {
+    LaunchEvent(int value) {
         this.value = value;
     }
 

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6558fccf-5cd4-49e2-a2d3-23bf096e2e0b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/statemachine/src/main/java/xbp/AppMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statemachine/src/main/java/xbp/LaunchContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statemachine/src/main/java/xbp/LaunchEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statemachine/src/main/java/xbp/LaunchStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/statemachine/src/main/java/xbp/LaunchStatus.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/cglib/cglib/3.3.0/cglib-3.3.0-sources.jar!/net/sf/cglib/proxy/Enhancer.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="/opt/apache-maven-3.6.3/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="1vRTPPt9cQ1RdN78DwTeVPFK0f2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="xbp" />
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.AppMain">
+    <configuration name="AppMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="xbp.AppMain" />
+      <module name="statemachine" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="xbp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListUsed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListUsed" />
+      <module name="collection" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="flow" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CglibTest.testBeanGenerator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cglib" />
+      <option name="MAIN_CLASS_NAME" value="cglib.CglibTest" />
+      <option name="METHOD_NAME" value="testBeanGenerator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CglibTest.testConstructorDelegate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cglib" />
+      <option name="MAIN_CLASS_NAME" value="cglib.CglibTest" />
+      <option name="METHOD_NAME" value="testConstructorDelegate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AppMain" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ListUsed" />
+        <item itemvalue="JUnit.CglibTest.testConstructorDelegate" />
+        <item itemvalue="JUnit.CglibTest.testBeanGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6558fccf-5cd4-49e2-a2d3-23bf096e2e0b" name="Default Changelist" comment="" />
+      <created>1626523877054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1626523877054</updated>
+      <workItem from="1626523878575" duration="1607000" />
+      <workItem from="1626533162133" duration="5008000" />
+      <workItem from="1626698975423" duration="2000" />
+      <workItem from="1627789595298" duration="8038000" />
+      <workItem from="1627869406651" duration="5072000" />
+      <workItem from="1635671644973" duration="493000" />
+      <workItem from="1637673840691" duration="526000" />
+      <workItem from="1638191651665" duration="2024000" />
+      <workItem from="1639019728453" duration="3062000" />
+      <workItem from="1639647645761" duration="8534000" />
+      <workItem from="1639842137419" duration="12810000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/proxy/src/test/java/cglib/CglibTest.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/statemachine/src/main/java/xbp/AppMain.java</url>
+          <line>209</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/statemachine/src/main/java/xbp/LaunchContext.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/statemachine/src/main/java/xbp/AppMain.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="net.sf.cglib.empty.Object$$BeanGeneratorByCGLIB$$60b0c82c" memberName="$cglib_prop_value" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
